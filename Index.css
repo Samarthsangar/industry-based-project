@@ -1,0 +1,392 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row_head {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(48, 42, 42);
+    height: 600px;
+    width: auto;
+}
+
+.row_head:hover .row_1 {
+    background-color: rgb(27, 20, 20);
+}
+
+.row_head .cols .row_1 {
+    position: fixed;
+    height: 50px;
+    width: 1370px;
+}
+
+.row_head .cols .row_1 img {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.row_head .cols .row_1 ul {
+    float: right;
+    margin-right: min(100%, 800px);
+    padding: 0px 50px;
+}
+
+.row_head .cols .row_1 ul li {
+    position: absolute;
+    list-style: none;
+    padding: 0px 50px;
+}
+
+.row_head .cols .row_1 ul li a {
+    font-size: 25px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 0 0px;
+    text-decoration: none;
+}
+
+.row_head .cols .row_2 {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: auto;
+}
+
+.row_head .cols .row_2 img {
+    height: 500px;
+}
+
+.row_head .cols .row_3 {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: auto;
+}
+
+.row_head .cols .row_3 button {
+    border-radius: 19px;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: .5rem 0;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-color: brown;
+}
+
+.row_head .cols .row_3 .btn {
+    border-radius: 19px;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: .5rem 0;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-color: rgb(56, 46, 46);
+}
+
+.row_head .cols .row_3 button a {
+    text-decoration: none;
+    color: azure;
+}
+
+.row_head .cols .rowz {
+    background-color: rgb(48, 42, 42);
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0;
+    height: 300px;
+    width: auto;
+}
+
+.row_head .cols .rowz .colz {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0;
+    position: absolute;
+    height: 200px;
+    width: auto;
+}
+
+.row_head .cols .rowz .colz .row_2 {
+    border-radius: 19px;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: .5rem 0;
+    padding: 1rem 2rem;
+    margin-left: 25px;
+    height: 130px;
+    width: min(100%, 600px);
+    border: 2px solid rgb(19, 16, 16);
+}
+
+.row_head .cols .rowz .colz .row_3 {
+    border-radius: 19px;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: .5rem 0;
+    padding: 1rem 2rem;
+    margin-left: 25px;
+    height: 130px;
+    width: min(100%, 600px);
+    border: 2px solid rgb(19, 15, 15);
+}
+
+.row_head .cols .rowz .colz .row_2 img {
+    mix-blend-mode: multiply;
+    width: 100px;
+    margin-left: 15px;
+}
+
+.row_head .cols .rowz .colz .row_2 p {
+    margin-top: -100px;
+    margin-left: 122px;
+    font-size: 1rem;
+    font-weight: 25;
+    color: azure;
+}
+
+.row_head .cols .rowz .colz .row_2 p span {
+    font-size: 1.8rem;
+    font-weight: 25px;
+}
+
+.row_head .cols .rowz .colz .row_3 img {
+    mix-blend-mode: multiply;
+    width: 100px;
+    margin-left: 15px;
+}
+
+.row_head .cols .rowz .colz .row_3 p {
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: 25;
+    color: azure;
+}
+
+.row_head .cols .rowz .colz .row_3 p span {
+    font-size: 1.8rem;
+    font-weight: 25px;
+}
+
+.row_head .cols .rowzz {
+    background-color: rgb(48, 42, 42);
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0;
+    height: 3350px;
+    width: auto;
+}
+
+.row_head .cols .rowzz .colzz {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0;
+    position: absolute;
+    height: 1300px;
+    width: auto;
+}
+
+.row_head .cols .rowzz .colzz .row_4 {
+    border-radius: 19px;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: .5rem 0;
+    padding: 1rem 2rem;
+    margin-left: 25px;
+    height: 250px;
+    width: min(100%, 600px);
+}
+
+.row_head .cols .rowzz .colzz .row_4 p {
+    margin-top: -10px;
+    font-size: 1rem;
+    font-weight: 25;
+    color: azure;
+}
+
+.row_head .cols .rowzz .colzz .row_4 p span {
+    font-size: 1.8rem;
+    font-weight: 50;
+    color: azure;
+}
+
+.row_head .cols .rowzz .row_4 .btn {
+    border-radius: 19px;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: .1rem 0;
+    margin-top: -15px;
+    padding: .3rem 1rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-color: rgb(158, 25, 25);
+}
+
+.row_head .cols .rowzz .row_4 button a {
+    text-decoration: none;
+    color: azure;
+}
+
+.row_head .cols .rowzz .colz .row_4 .sm {
+    font-size: 1.8rem;
+    color: azure;
+}
+
+.row_head .cols .rowzz .colz .row_5 {
+    border-radius: 19px;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: .5rem 0;
+    padding: 1rem 2rem;
+    margin-left: 25px;
+    height: 300px;
+    width: min(100%, 500px);
+}
+
+.row_head .cols .rowzz .colzz .row_5 video {
+    margin-top: -30px;
+    margin-left: 50px;
+    width: min(100%, 500px);
+}
+
+.row_head .cols .rowzz .colzz .row_6 {
+    border-radius: 19px;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: .5rem 0;
+    padding: 1rem 2rem;
+    margin-left: 25px;
+    height: 300px;
+    width: min(100%, 550px);
+}
+
+.row_head .cols .rowzz .colzz .row_6 p {
+    text-justify: center;
+    font-size: 1.8rem;
+    font-weight: 50;
+    color: azure;
+}
+
+.row_head .cols .rowzz .colzz .row_7 {
+    border-radius: 19px;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: .5rem 0;
+    margin-top: 20px;
+    padding: 1rem 2rem;
+    margin-left: 25px;
+    height: 230px;
+    width: min(100%, 550px);
+}
+
+.row_head .cols .rowzz .colzz .row_7 span {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    font-weight: 50;
+    color: azure;
+}
+
+.row_head .cols .rowzz .colzz .row_7 p {
+    font-size: 1rem;
+    font-weight: 25;
+    color: azure;
+}
+
+.row_head .cols .rowzz .colzz .row_8 {
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    height: 300px;
+    background-color: rgb(24, 19, 19);
+    width: min(100%, 1350px);
+    text-align: center;
+}
+
+.row_head .cols .rowzz .colzz .row_8 img {
+    mix-blend-mode: lighten;
+    border-radius: 19px;
+    width: 90px;
+}
+
+.row_head .cols .rowzz .colzz .row_8 p {
+    font-size: 1.2rem;
+}
+
+.row_head .cols .rowzz .colzz .row_8 span {
+    font-size: 1.8rem;
+    font-weight: 50;
+    color: azure;
+}
+
+.row_head .cols .row_3 form {
+    display: none;
+    width: 350px;
+    background-color: aqua;
+    padding: 2px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.row_head .cols .row_3 form h2 {
+    color: aliceblue;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.row_head .cols .row_3 form input,
+textarea {
+    width: 80%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    margin: 10px auto;
+    display: block;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.row_head .cols .row_3 form textarea {
+    height: 100px;
+}
+
+.row_head .cols .row_3 form .btn {
+    background-color: darkgreen;
+    color: azure;
+    cursor: pointer;
+}
+
+.row_head .cols .row_3 form .btn:hover {
+    background-color: rgb(5, 46, 5);
+}
+
+.row_head .cols .row_3 form button {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background-color: darkred;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    color: azure;
+    cursor: pointer;
+}
+
+.row_head .cols .row_3 form button:hover {
+    background-color: rgb(194, 30, 30);
+}
